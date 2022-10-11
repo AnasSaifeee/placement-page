@@ -1,163 +1,161 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-h2
-{
-    text-align: center;
-    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-    font-weight: bolder;
+.placements-logo {
+  width: 350px;
 }
-h4
-{
-    text-align: center;
-    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-    font-weight: bolder;
+h2 {
+  text-align: center;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-weight: bolder;
 }
-h6
-{
-    text-align: center ;
+h4 {
+  text-align: center;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-weight: bolder;
 }
-p{
-    font-family:'Source Sans Pro', Helvetica, Arial, sans-serif ;
+h6 {
+  text-align: center;
 }
-.nav-link:hover{
-    font-weight: bold;
+p {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
 }
-.navbar-nav{
-    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+.nav-link:hover {
+  font-weight: bold;
 }
-.nav-link
-{
-    color: white !important;
-    margin-right: 20px;
+.navbar-nav {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
-
-section
-{
-    height:40rem;
+.nav-link {
+  color: white !important;
+  margin-right: 20px;
 }
 
-.about-2
-{
-    width: 70%;
-    margin-top: 30px;
-    margin-bottom: 70px;
+section {
+  height: 40rem;
 }
 
-.RP
-{
-    background-color:rgb(246, 245, 245);
-    
+.about-2 {
+  width: 70%;
+  margin-top: 30px;
+  margin-bottom: 70px;
 }
 
-
-.RP-2
-{
-    margin: 20px;
-    margin-bottom: 70px;    
+.RP {
+  background-color: rgb(246, 245, 245);
 }
 
-.PT
-{
-    background-color:rgb(246, 245, 245);
+.RP-2 {
+  margin: 20px;
+  margin-bottom: 70px;
 }
 
-.footerhead{
-    color: white;
-    font-size: 17px;
+.PT {
+  background-color: rgb(246, 245, 245);
+}
+
+.footerhead {
+  color: white;
+  font-size: 17px;
 }
 
 .box-icon {
-    border-right: 2px solid #ebebeb;
-    float: left;
-    font-size: 1.4em;
-    height: 45px;
-    line-height: 40px;
-    margin: 0 20px 0 0;
-    width: 40px;
-  }
+  border-right: 2px solid #ebebeb;
+  float: left;
+  font-size: 1.4em;
+  height: 45px;
+  line-height: 40px;
+  margin: 0 20px 0 0;
+  width: 40px;
+}
 
-.navbar
-{
-   box-shadow: 2px 2px 50px #aaa;
+.navbar {
+  box-shadow: 0 0 5px #333;
 }
 .carousel-content {
-    position: absolute;
-    bottom: 50%;
-    left: 28%;
-    z-index: 20;
-    color: white;
+  position: absolute;
+  bottom: 50%;
+  left: 14.5%;
+  right: 14.5%;
+  z-index: 20;
+  color: white;
 }
 
-  .tiles
-  {
-      background-color:white;
-      height:120px;
-     border: white solid 2px;
-     border-radius: 10px;
-     margin: 20px;
-     box-shadow: 2px 2px 20px rgb(178, 178, 178);
+.tiles {
+  background-color: white;
+  height: 120px;
+  border: white solid 2px;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 2px 2px 20px rgb(178, 178, 178);
+}
+
+.box-icon i {
+  line-height: 45px;
+  color: #910052;
+}
+
+.links {
+  text-decoration: none;
+  color: white;
+}
+.links:hover {
+  color: rgb(234, 142, 157);
+}
+
+.phone {
+  margin-top: -3%;
+}
+
+.mailid {
+  margin-top: -3%;
+}
+.phonebox {
+  margin-top: 4%;
+}
+
+.heads {
+  letter-spacing: 2px;
+  font-size: 60px;
+  font-weight: bolder;
+}
+@media screen and (max-width: 1200px) {
+  .iicaddress {
+    font-size: 14.5px;
   }
 
-  .box-icon i {
-    line-height: 45px;
-    color: #910052;
+  .phone,
+  .mailid {
+    margin-top: -4%;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .placements-logo {
+    width: 250px;
   }
 
-  .links{
-    text-decoration: none;
-    color: white;
+  .custom-footer-placements {
+    width: 80%;
   }
-  .links:hover
-  {
-    color:rgb(234, 142, 157);
-  }
-  
-  .phone{
-    margin-top: -3%;
+  .iicaddress {
+    font-size: 11px;
   }
 
-  .mailid{
-    margin-top: -3%;
+  .phone,
+  .mailid {
+    margin-top: -5%;
   }
-  .phonebox{
-    margin-top: 4%;
+  .phonebox {
+    margin-top: 6.5%;
   }
-  
-  @media screen and (max-width: 1200px) {
-    .iicaddress{
-        font-size: 14.5px;
-    }
+}
 
-    .phone, .mailid{
-        margin-top: -4%;
-    }
-
+@media screen and (max-width: 980px) {
+  .phone,
+  .mailid {
+    margin-top: -6%;
   }
-
-    @media screen and (max-width: 990px) {
-    .iicaddress {
-                font-size: 14px;
-        }
-      
-    .phone, .mailid 
-    {
-        margin-top: -5%;
-    
-
-    }
-    .phonebox{
-        margin-top: 6.5%;
-    }
-    }
-
-    @media screen and (max-width: 980px) {
-    
-      .phone, .mailid 
-      {
-         margin-top: -6%; 
-        }
-    
-        }
+}
