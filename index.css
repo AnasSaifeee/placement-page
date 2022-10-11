@@ -69,6 +69,16 @@ section
     width: 40px;
   }
 
+  .tiles
+  {
+      background-color:white;
+      height:120px;
+     border: white solid 2px;
+     border-radius: 10px;
+     margin: 20px;
+     box-shadow: 2px 2px 20px rgb(178, 178, 178);
+  }
+
   .box-icon i {
     line-height: 45px;
     color: #910052;
