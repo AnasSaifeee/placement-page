@@ -83,6 +83,13 @@ section
 {
    box-shadow: 2px 2px 50px #aaa;
 }
+.carousel-content {
+    position: absolute;
+    bottom: 50%;
+    left: 28%;
+    z-index: 20;
+    color: white;
+}
 
   .tiles
   {
