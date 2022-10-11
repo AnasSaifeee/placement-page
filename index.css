@@ -76,3 +76,47 @@ section
     color: white;
   }
   
+  .phone{
+    margin-top: -3%;
+  }
+
+  .mailid{
+    margin-top: -3%;
+  }
+  .phonebox{
+    margin-top: 4%;
+  }
+  @media screen and (max-width: 1200px) {
+    .iicaddress{
+        font-size: 14.5px;
+    }
+
+    .phone, .mailid{
+        margin-top: -4%;
+    }
+  }
+
+    @media screen and (max-width: 990px) {
+    .iicaddress {
+                font-size: 14px;
+        }
+      
+    .phone, .mailid 
+    {
+        margin-top: -5%;
+    
+
+    }
+    .phonebox{
+        margin-top: 6.5%;
+    }
+    }
+
+    @media screen and (max-width: 980px) {
+    
+      .phone, .mailid 
+      {
+         margin-top: -6%; 
+        }
+    
+        }
