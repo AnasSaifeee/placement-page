@@ -79,7 +79,7 @@ section
 
 .navbar
 {
-   box-shadow: 2px 1px 20px rgb(250, 242, 242);
+   box-shadow: 2px 2px 50px #aaa;
 }
 
   .tiles
