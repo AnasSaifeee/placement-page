@@ -85,8 +85,8 @@ section
 }
 .carousel-content {
     position: absolute;
-    bottom: 50%;
-    left: 28%;
+    bottom: 45%;
+    left: 15%;
     z-index: 20;
     color: white;
 }
