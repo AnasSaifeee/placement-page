@@ -47,3 +47,29 @@ h6
 {
     background-color:rgb(246, 245, 245);
 }
+
+.footerhead{
+    color: white;
+    font-size: 17px;
+}
+
+.box-icon {
+    border-right: 2px solid #ebebeb;
+    float: left;
+    font-size: 1.4em;
+    height: 45px;
+    line-height: 40px;
+    margin: 0 20px 0 0;
+    width: 40px;
+  }
+
+  .box-icon i {
+    line-height: 45px;
+    color: #910052;
+  }
+
+  .links{
+    text-decoration: none;
+    color: white;
+  }
+  
