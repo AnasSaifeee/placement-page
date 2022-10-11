@@ -15,12 +15,15 @@ h6
     text-align: center ;
 }
 
-
+.nav-link:hover{
+    font-weight: bold;
+}
 .nav-link
 {
     color: white !important;
     margin-right: 20px;
 }
+
 section
 {
     height:40rem;
