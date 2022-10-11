@@ -77,6 +77,11 @@ section
     width: 40px;
   }
 
+.navbar
+{
+   box-shadow: 2px 1px 20px rgb(250, 242, 242);
+}
+
   .tiles
   {
       background-color:white;
@@ -95,6 +100,10 @@ section
   .links{
     text-decoration: none;
     color: white;
+  }
+  .links:hover
+  {
+    color:rgb(234, 142, 157);
   }
   
   .phone{
