@@ -136,9 +136,6 @@ section {
     width: 250px;
   }
 
-  .custom-footer-placements {
-    width: 80%;
-  }
   .iicaddress {
     font-size: 11px;
   }
@@ -156,5 +153,11 @@ section {
   .phone,
   .mailid {
     margin-top: -6%;
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .custom-footer-placements {
+    width: 80%;
   }
 }
