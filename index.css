@@ -43,8 +43,6 @@ section {
   margin-bottom: 70px;
 }
 
-
-
 .RP {
   background-color: rgb(246, 245, 245);
 }
@@ -141,11 +139,10 @@ section {
   .iicaddress {
     font-size: 11px;
   }
-  .carousel-content .heads 
-{
-  font-size: 40px;
-  transform: translateY(20px);
-}
+  .carousel-content .heads {
+    font-size: 40px;
+    transform: translateY(20px);
+  }
   .phone,
   .mailid {
     margin-top: -5%;
@@ -162,9 +159,8 @@ section {
   }
 }
 
-@media screen and (max-width:570px) {
-  .carousel-content .heads 
-  {
+@media screen and (max-width: 570px) {
+  .carousel-content .heads {
     font-size: 20px;
   }
 }
